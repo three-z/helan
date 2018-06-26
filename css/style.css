@@ -1136,7 +1136,8 @@ body {
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
-	background-color: #fff
+	background-color: #fff;
+	background-image: url("../images/bg.png");
 }
 
 input,
@@ -11831,7 +11832,7 @@ textarea.form-control-simple {
 	padding-bottom: 20px;
 }
 
-@media(max-width:767px) {
+@media(max-width:990px) {
 	.row-equal .col-equal {
 		height: auto !important;
 	}
@@ -13141,4 +13142,8 @@ a.ui-button:active,
 #data-di-nascita {
 	background-color: #fff !important;
 	cursor: text !important
+}
+
+#home-header .casa .tab-link .link {
+	background: #ff8344;
 }
